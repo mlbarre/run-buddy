@@ -12,3 +12,5 @@ http://mlbarre.github.io/run-buddy/
 
 ## Contribution
 Made with <3 by Maggie
+
+### ©️2019 Run Buddy, Inc 
