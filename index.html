@@ -59,18 +59,21 @@
         <label for="phone">Enter a telephone number:</label>
         <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
         <p>
-            Have you work out with a trainer before?
-            <input type="radio" name="trainer-confirm" id="trainer-yes" />
-            <label for="trainer-yes">Yes</label>
-            <input type="radio" name="trainer-confirm" id="trainer-no" />
-            <label for="trainer-no">No</label>
+            Have you worked out with a trainer before?
+            <span class="radio-wrapper">
+                <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                <label for="trainer-yes">Yes</label>
+            </span>
+            <span class="radio-wrapper">
+                <input class="radio" name="trainer-confirm" id="trainer-no" />
+                <label for="trainer-no">No</label>
+            </span>
         </p>
         <p>
-            I achknowledge that I am at least 18 years of age.
-            <input type="checkbox" name="age-confirm" id="confirm-yes" />
-            <label for="confirm-no">Yes</label>
-            <input type="checkbox" name="age-confirm" id="confirm-no" />
-            <label for="confirm-no">No</label>
+            <span class="checkbox-wrapper">
+                <input type="checkbox" name="age-confirm" id="checkbox" />
+                <label for="checkbox">I acknowledge that I am at least 18 years of age.</label>
+            </span>
         </p>
         <button type="submit">
             Get running!
@@ -208,7 +211,7 @@
 <section id="reach-out" class="contact">
     <!-- WRAP EVERY H2 WITH A CLASS OF "SECTION-TITLE" IN THIS DIV -->
     <div class="flex-row">
-    <h2 class="section-title secondary-border">Reach Out</h2> </div>d
+    <h2 class="section-title secondary-border">Reach Out</h2> </div>
     
         <div class="contact-info">
         <div>
